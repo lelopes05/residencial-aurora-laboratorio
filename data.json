@@ -1,0 +1,2190 @@
+{
+  "project": {
+    "name": "Residencial Aurora",
+    "subtitle": "Portal do cliente · laboratório independente",
+    "start": "2026-10-19",
+    "scope": "Reforma completa de personalização de apartamento entregue com acabamentos básicos",
+    "assumptions": [
+      "Imóvel vazio e liberado em 19/10/2026 (hipótese de planejamento, não entrega de chaves).",
+      "Jornada segunda a sexta, 8 horas/dia, sem feriados e sem restrições adicionais do condomínio nesta simulação.",
+      "Equipes independentes por frente, sem disputa de recursos dentro das cadeias explicitadas.",
+      "Materiais com prazos hipotéticos em dias úteis; fornecedores e preços não confirmados.",
+      "Sem quebra estrutural, alteração de fachada ou remoção indiscriminada de impermeabilização.",
+      "Serviços executivos dependem de vistoria, aprovações e projeto técnico detalhado."
+    ],
+    "caveats": [
+      "Quatro ambientes sanitários aparentes; usos e acessos exatos precisam de conferência.",
+      "Perspectivas são conceituais, não comprovação de paginação, dimensões ou compatibilidade com a planta.",
+      "Prazos não incorporam feriados, recessos, tempo de aprovação extraordinário nem contratempos."
+    ]
+  },
+  "rooms": [
+    {
+      "id": "AUR-GERAL",
+      "name": "Apartamento / geral",
+      "short": "Geral",
+      "description": "Conjunto residencial fictício; intervenções condicionadas ao executivo, condomínio e vistorias.",
+      "group": "Geral",
+      "cover": "sala-estar-jantar.jpg",
+      "imageNote": "Vista ilustrativa das áreas sociais.",
+      "polygon": null,
+      "tasks": [
+        "AUR-001",
+        "AUR-002",
+        "AUR-003",
+        "AUR-004",
+        "AUR-005",
+        "AUR-010",
+        "AUR-011",
+        "AUR-014",
+        "AUR-015",
+        "AUR-016",
+        "AUR-017",
+        "AUR-018",
+        "AUR-030",
+        "AUR-031",
+        "AUR-032",
+        "AUR-034",
+        "AUR-035",
+        "AUR-041",
+        "AUR-042",
+        "AUR-045",
+        "AUR-046",
+        "AUR-050",
+        "AUR-064",
+        "AUR-065",
+        "AUR-070",
+        "AUR-071",
+        "AUR-072",
+        "AUR-073",
+        "AUR-074",
+        "AUR-080",
+        "AUR-081",
+        "AUR-093",
+        "AUR-095",
+        "AUR-100",
+        "AUR-101",
+        "AUR-102",
+        "AUR-103",
+        "AUR-104",
+        "AUR-105",
+        "AUR-106"
+      ],
+      "images": [
+        "sala-estar-jantar.jpg"
+      ]
+    },
+    {
+      "id": "AUR-SALA",
+      "name": "Sala de estar e jantar",
+      "short": "Estar e jantar",
+      "description": "Estar integrado, mesa retangular central, sofá e rack/TV; cozinha conectada por bancada.",
+      "group": "Área social",
+      "cover": "sala-estar-jantar.jpg",
+      "polygon": [
+        [
+          629,
+          675
+        ],
+        [
+          859,
+          675
+        ],
+        [
+          859,
+          902
+        ],
+        [
+          638,
+          902
+        ]
+      ],
+      "tasks": [
+        "AUR-021",
+        "AUR-022",
+        "AUR-053",
+        "AUR-060",
+        "AUR-092"
+      ],
+      "images": [
+        "sala-estar-jantar.jpg"
+      ]
+    },
+    {
+      "id": "AUR-COZ",
+      "name": "Cozinha",
+      "short": "Cozinha",
+      "description": "Cozinha integrada à sala, ilha/bancada com banquetas, metais e equipamentos.",
+      "group": "Área social",
+      "cover": "cozinha.jpg",
+      "polygon": [
+        [
+          263,
+          740
+        ],
+        [
+          469,
+          740
+        ],
+        [
+          469,
+          905
+        ],
+        [
+          262,
+          905
+        ]
+      ],
+      "tasks": [
+        "AUR-019",
+        "AUR-020",
+        "AUR-043",
+        "AUR-062",
+        "AUR-082",
+        "AUR-083",
+        "AUR-084",
+        "AUR-091"
+      ],
+      "images": [
+        "cozinha.jpg"
+      ]
+    },
+    {
+      "id": "AUR-VAR",
+      "name": "Varanda",
+      "short": "Varanda",
+      "description": "Mesa redonda de jantar, cadeira de leitura e infraestrutura de apoio. Churrasqueira/jardim do render sujeitos a verificação.",
+      "group": "Área social",
+      "cover": "varanda.jpg",
+      "polygon": [
+        [
+          863,
+          671
+        ],
+        [
+          1098,
+          671
+        ],
+        [
+          1098,
+          909
+        ],
+        [
+          863,
+          909
+        ]
+      ],
+      "tasks": [
+        "AUR-023",
+        "AUR-024",
+        "AUR-044",
+        "AUR-063",
+        "AUR-094"
+      ],
+      "images": [
+        "varanda.jpg"
+      ]
+    },
+    {
+      "id": "AUR-LAV",
+      "name": "Lavanderia / serviço",
+      "short": "Serviço",
+      "description": "Ambiente inferior esquerdo com equipamentos de lavagem e apoio à cozinha.",
+      "group": "Apoio",
+      "cover": null,
+      "polygon": [
+        [
+          129,
+          742
+        ],
+        [
+          260,
+          742
+        ],
+        [
+          260,
+          902
+        ],
+        [
+          129,
+          902
+        ]
+      ],
+      "tasks": [],
+      "images": []
+    },
+    {
+      "id": "AUR-CIRC",
+      "name": "Circulação e rouparia",
+      "short": "Circulação",
+      "description": "Circulação íntima horizontal com armários lineares e acessos aos dormitórios e banheiros.",
+      "group": "Apoio",
+      "cover": null,
+      "polygon": [
+        [
+          196,
+          670
+        ],
+        [
+          566,
+          670
+        ],
+        [
+          566,
+          616
+        ],
+        [
+          870,
+          616
+        ],
+        [
+          870,
+          671
+        ],
+        [
+          627,
+          671
+        ],
+        [
+          626,
+          737
+        ],
+        [
+          470,
+          737
+        ],
+        [
+          195,
+          739
+        ]
+      ],
+      "tasks": [],
+      "images": []
+    },
+    {
+      "id": "AUR-SUITE",
+      "name": "Dormitório principal (suíte provável)",
+      "short": "Suíte",
+      "description": "Dormitório de casal à direita. Associação com banheiro deve ser confirmada na planta técnica.",
+      "group": "Área íntima",
+      "cover": "suite.jpg",
+      "imageNote": "Render denominado Suíte; atribuição ao dormitório direito provisória.",
+      "polygon": [
+        [
+          890,
+          373
+        ],
+        [
+          1091,
+          373
+        ],
+        [
+          1091,
+          613
+        ],
+        [
+          889,
+          613
+        ]
+      ],
+      "tasks": [],
+      "images": [
+        "suite.jpg"
+      ]
+    },
+    {
+      "id": "AUR-QUARTO",
+      "name": "Dormitório casal / quarto 2",
+      "short": "Quarto 2",
+      "description": "Dormitório de cama dupla à esquerda da planta. Imagem associada por hipótese, pois o render não identifica posição física.",
+      "group": "Área íntima",
+      "cover": "quarto.jpg",
+      "imageNote": "Render denominado Quarto; associação provisória ao dormitório esquerdo.",
+      "polygon": [
+        [
+          264,
+          373
+        ],
+        [
+          443,
+          373
+        ],
+        [
+          443,
+          560
+        ],
+        [
+          483,
+          560
+        ],
+        [
+          483,
+          618
+        ],
+        [
+          489,
+          618
+        ],
+        [
+          489,
+          670
+        ],
+        [
+          263,
+          670
+        ]
+      ],
+      "tasks": [],
+      "images": [
+        "quarto.jpg"
+      ]
+    },
+    {
+      "id": "AUR-FLEX",
+      "name": "Dormitório 3 / home office",
+      "short": "Quarto 3",
+      "description": "Ambiente central com sofá-cama ou cama, mesa e armário; sem perspectiva própria inequívoca.",
+      "group": "Área íntima",
+      "cover": null,
+      "polygon": [
+        [
+          494,
+          353
+        ],
+        [
+          683,
+          353
+        ],
+        [
+          683,
+          555
+        ],
+        [
+          562,
+          555
+        ],
+        [
+          562,
+          614
+        ],
+        [
+          494,
+          614
+        ]
+      ],
+      "tasks": [],
+      "images": []
+    },
+    {
+      "id": "AUR-BA1",
+      "name": "Banheiro 1 (superior esquerdo)",
+      "short": "Banho 1",
+      "description": "Instalação com ducha, bacia e bancada próxima ao dormitório esquerdo; verificar acesso.",
+      "group": "Banheiros",
+      "cover": null,
+      "polygon": [
+        [
+          156,
+          373
+        ],
+        [
+          255,
+          373
+        ],
+        [
+          255,
+          554
+        ],
+        [
+          156,
+          554
+        ]
+      ],
+      "tasks": [],
+      "images": []
+    },
+    {
+      "id": "AUR-BA2",
+      "name": "Banheiro 2 (inferior esquerdo)",
+      "short": "Banho 2",
+      "description": "Instalação sanitária compacta à esquerda, próxima à circulação/serviço.",
+      "group": "Banheiros",
+      "cover": null,
+      "polygon": [
+        [
+          154,
+          561
+        ],
+        [
+          252,
+          561
+        ],
+        [
+          252,
+          637
+        ],
+        [
+          194,
+          637
+        ],
+        [
+          194,
+          669
+        ],
+        [
+          154,
+          669
+        ]
+      ],
+      "tasks": [],
+      "images": []
+    },
+    {
+      "id": "AUR-BA3",
+      "name": "Banheiro 3 (centro direito)",
+      "short": "Banho 3",
+      "description": "Instalação na faixa superior entre dormitório central e suíte provável. Associação provisória do render de banheiro.",
+      "group": "Banheiros",
+      "cover": "banheiro.jpg",
+      "imageNote": "Render de banheiro sem identificação de qual dos quatro; atribuição provisória.",
+      "polygon": [
+        [
+          685,
+          374
+        ],
+        [
+          783,
+          374
+        ],
+        [
+          783,
+          556
+        ],
+        [
+          685,
+          556
+        ]
+      ],
+      "tasks": [],
+      "images": [
+        "banheiro.jpg"
+      ]
+    },
+    {
+      "id": "AUR-BA4",
+      "name": "Banheiro 4 (centro superior direito)",
+      "short": "Banho 4",
+      "description": "Instalação sanitária adjacente ao banho 3, acesso e uso a confirmar.",
+      "group": "Banheiros",
+      "cover": null,
+      "polygon": [
+        [
+          786,
+          374
+        ],
+        [
+          886,
+          374
+        ],
+        [
+          886,
+          556
+        ],
+        [
+          786,
+          556
+        ]
+      ],
+      "tasks": [],
+      "images": []
+    }
+  ],
+  "tasks": [
+    {
+      "id": "AUR-001",
+      "name": "Vistoria do imóvel, fotos, medição e conferência das instalações",
+      "stage": "Preparação",
+      "duration": 3,
+      "predecessorIds": [],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "servico",
+      "notes": "Chaves e autorização de acesso são premissas de trabalho, não fatos confirmados.",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2026-10-19",
+      "end": "2026-10-21"
+    },
+    {
+      "id": "AUR-002",
+      "name": "Levantamento técnico e compatibilização de arquitetura e instalações",
+      "stage": "Preparação",
+      "duration": 8,
+      "predecessorIds": [
+        "AUR-001"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2026-10-22",
+      "end": "2026-11-02"
+    },
+    {
+      "id": "AUR-003",
+      "name": "Conferência estrutural, condominial, responsabilidade técnica e aprovações",
+      "stage": "Preparação",
+      "duration": 10,
+      "predecessorIds": [
+        "AUR-002"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "servico",
+      "notes": "Proibir remoções estruturais sem análise técnica e anuências aplicáveis.",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2026-11-03",
+      "end": "2026-11-16"
+    },
+    {
+      "id": "AUR-004",
+      "name": "Planejar logística, elevador, vizinhança e horários de serviços ruidosos",
+      "stage": "Preparação",
+      "duration": 3,
+      "predecessorIds": [
+        "AUR-001"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2026-10-22",
+      "end": "2026-10-26"
+    },
+    {
+      "id": "AUR-005",
+      "name": "Proteções, segurança, isolamento, ponto provisório e organização de canteiro",
+      "stage": "Preparação",
+      "duration": 3,
+      "predecessorIds": [
+        "AUR-003",
+        "AUR-004"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2026-11-17",
+      "end": "2026-11-19"
+    },
+    {
+      "id": "AUR-010",
+      "name": "Especificar e aprovar pisos, revestimentos e rodapés",
+      "stage": "Compras e suprimentos",
+      "duration": 6,
+      "predecessorIds": [
+        "AUR-002"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "compra",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2026-11-03",
+      "end": "2026-11-10"
+    },
+    {
+      "id": "AUR-011",
+      "name": "Comprar e receber pisos, argamassas, rejuntes e impermeabilizantes",
+      "stage": "Compras e suprimentos",
+      "duration": 22,
+      "predecessorIds": [
+        "AUR-010"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "fornecimento",
+      "notes": "Prazo fictício; requer confirmação comercial.",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2026-11-11",
+      "end": "2026-12-10"
+    },
+    {
+      "id": "AUR-012",
+      "name": "Especificar louças, metais, boxes e acessórios",
+      "stage": "Compras e suprimentos",
+      "duration": 5,
+      "predecessorIds": [
+        "AUR-002"
+      ],
+      "environmentId": "AUR-BANS",
+      "release": 0,
+      "kind": "compra",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2026-11-03",
+      "end": "2026-11-09"
+    },
+    {
+      "id": "AUR-013",
+      "name": "Comprar e receber louças, metais e boxes",
+      "stage": "Compras e suprimentos",
+      "duration": 25,
+      "predecessorIds": [
+        "AUR-012"
+      ],
+      "environmentId": "AUR-BANS",
+      "release": 0,
+      "kind": "fornecimento",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2026-11-10",
+      "end": "2026-12-14"
+    },
+    {
+      "id": "AUR-014",
+      "name": "Aprovar projeto luminotécnico e compatibilizar elétrica",
+      "stage": "Compras e suprimentos",
+      "duration": 7,
+      "predecessorIds": [
+        "AUR-002"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "compra",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2026-11-03",
+      "end": "2026-11-11"
+    },
+    {
+      "id": "AUR-015",
+      "name": "Comprar e receber perfis LED, drivers e luminárias",
+      "stage": "Compras e suprimentos",
+      "duration": 24,
+      "predecessorIds": [
+        "AUR-014"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "fornecimento",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2026-11-12",
+      "end": "2026-12-15"
+    },
+    {
+      "id": "AUR-016",
+      "name": "Definir marcenaria executiva, ferragens, tecidos e amostras",
+      "stage": "Compras e suprimentos",
+      "duration": 12,
+      "predecessorIds": [
+        "AUR-002"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "compra",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2026-11-03",
+      "end": "2026-11-18"
+    },
+    {
+      "id": "AUR-017",
+      "name": "Fabricação industrial da marcenaria personalizada",
+      "stage": "Compras e suprimentos",
+      "duration": 38,
+      "predecessorIds": [
+        "AUR-016"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "fornecimento",
+      "notes": "Fabricação fictícia sob encomenda, em paralelo às obras civis.",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2026-11-19",
+      "end": "2027-01-11"
+    },
+    {
+      "id": "AUR-018",
+      "name": "Transporte, conferência e aclimatação da marcenaria",
+      "stage": "Compras e suprimentos",
+      "duration": 3,
+      "predecessorIds": [
+        "AUR-017"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "fornecimento",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2027-01-12",
+      "end": "2027-01-14"
+    },
+    {
+      "id": "AUR-019",
+      "name": "Escolher pedras e detalhes de bancadas e soleiras",
+      "stage": "Compras e suprimentos",
+      "duration": 7,
+      "predecessorIds": [
+        "AUR-002"
+      ],
+      "environmentId": "AUR-COZ",
+      "release": 0,
+      "kind": "compra",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2026-11-03",
+      "end": "2026-11-11"
+    },
+    {
+      "id": "AUR-020",
+      "name": "Comprar e receber eletrodomésticos e equipamentos",
+      "stage": "Compras e suprimentos",
+      "duration": 24,
+      "predecessorIds": [
+        "AUR-002"
+      ],
+      "environmentId": "AUR-COZ",
+      "release": 0,
+      "kind": "fornecimento",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2026-11-03",
+      "end": "2026-12-04"
+    },
+    {
+      "id": "AUR-021",
+      "name": "Escolher mobiliário solto, persianas, tapetes e decoração",
+      "stage": "Compras e suprimentos",
+      "duration": 8,
+      "predecessorIds": [
+        "AUR-002"
+      ],
+      "environmentId": "AUR-SALA",
+      "release": 0,
+      "kind": "compra",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2026-11-03",
+      "end": "2026-11-12"
+    },
+    {
+      "id": "AUR-022",
+      "name": "Encomendar e receber mobiliário solto, persianas e decoração",
+      "stage": "Compras e suprimentos",
+      "duration": 35,
+      "predecessorIds": [
+        "AUR-021"
+      ],
+      "environmentId": "AUR-SALA",
+      "release": 0,
+      "kind": "fornecimento",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2026-11-13",
+      "end": "2026-12-31"
+    },
+    {
+      "id": "AUR-023",
+      "name": "Aprovar solução de varanda e necessidade de autorização condominial",
+      "stage": "Compras e suprimentos",
+      "duration": 8,
+      "predecessorIds": [
+        "AUR-002"
+      ],
+      "environmentId": "AUR-VAR",
+      "release": 0,
+      "kind": "compra",
+      "notes": "Render sugere área gourmet/jardim, mas infraestrutura deve ser verificada.",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2026-11-03",
+      "end": "2026-11-12"
+    },
+    {
+      "id": "AUR-024",
+      "name": "Comprar e receber equipamentos e acabamentos da varanda",
+      "stage": "Compras e suprimentos",
+      "duration": 20,
+      "predecessorIds": [
+        "AUR-023"
+      ],
+      "environmentId": "AUR-VAR",
+      "release": 0,
+      "kind": "fornecimento",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2026-11-13",
+      "end": "2026-12-10"
+    },
+    {
+      "id": "AUR-030",
+      "name": "Desenergização seletiva e isolamento das redes a intervir",
+      "stage": "Retiradas e demolições",
+      "duration": 2,
+      "predecessorIds": [
+        "AUR-005"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2026-11-20",
+      "end": "2026-11-23"
+    },
+    {
+      "id": "AUR-031",
+      "name": "Desmontagem de peças, portas de móveis e acessórios existentes",
+      "stage": "Retiradas e demolições",
+      "duration": 4,
+      "predecessorIds": [
+        "AUR-030"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2026-11-24",
+      "end": "2026-11-27"
+    },
+    {
+      "id": "AUR-032",
+      "name": "Remover pisos, rodapés e bases originais definidos para substituição",
+      "stage": "Retiradas e demolições",
+      "duration": 8,
+      "predecessorIds": [
+        "AUR-031"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "servico",
+      "notes": "O apartamento já tem pisos assentados; remoção planejada.",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2026-11-30",
+      "end": "2026-12-09"
+    },
+    {
+      "id": "AUR-033",
+      "name": "Remover acabamentos básicos dos banheiros e cozinha",
+      "stage": "Retiradas e demolições",
+      "duration": 7,
+      "predecessorIds": [
+        "AUR-031"
+      ],
+      "environmentId": "AUR-BANS",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2026-11-30",
+      "end": "2026-12-08"
+    },
+    {
+      "id": "AUR-034",
+      "name": "Caçambas, segregação, transporte e destinação dos resíduos",
+      "stage": "Retiradas e demolições",
+      "duration": 9,
+      "predecessorIds": [
+        "AUR-032",
+        "AUR-033"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "servico",
+      "notes": "Logística sujeita às regras do condomínio.",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2026-12-10",
+      "end": "2026-12-22"
+    },
+    {
+      "id": "AUR-035",
+      "name": "Vistoria de bases expostas e diagnóstico de patologias",
+      "stage": "Retiradas e demolições",
+      "duration": 3,
+      "predecessorIds": [
+        "AUR-032",
+        "AUR-033"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2026-12-10",
+      "end": "2026-12-14"
+    },
+    {
+      "id": "AUR-040",
+      "name": "Rasgos e adequações hidráulicas e de esgoto em áreas molhadas",
+      "stage": "Instalações e infraestrutura",
+      "duration": 7,
+      "predecessorIds": [
+        "AUR-035"
+      ],
+      "environmentId": "AUR-BANS",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2026-12-15",
+      "end": "2026-12-23"
+    },
+    {
+      "id": "AUR-041",
+      "name": "Infra elétrica, circuitos, quadro, tomadas e automação compatibilizada",
+      "stage": "Instalações e infraestrutura",
+      "duration": 10,
+      "predecessorIds": [
+        "AUR-035",
+        "AUR-014"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2026-12-15",
+      "end": "2026-12-28"
+    },
+    {
+      "id": "AUR-042",
+      "name": "Pontos de iluminação, alimentação de LED e infraestrutura de forro",
+      "stage": "Instalações e infraestrutura",
+      "duration": 5,
+      "predecessorIds": [
+        "AUR-041"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2026-12-29",
+      "end": "2027-01-04"
+    },
+    {
+      "id": "AUR-043",
+      "name": "Adequar pontos da cozinha para ilha, coifa e equipamentos conforme projeto",
+      "stage": "Instalações e infraestrutura",
+      "duration": 5,
+      "predecessorIds": [
+        "AUR-040",
+        "AUR-041"
+      ],
+      "environmentId": "AUR-COZ",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2026-12-29",
+      "end": "2027-01-04"
+    },
+    {
+      "id": "AUR-044",
+      "name": "Verificar cargas, ventilação, gás e viabilidade técnica da varanda",
+      "stage": "Instalações e infraestrutura",
+      "duration": 5,
+      "predecessorIds": [
+        "AUR-023",
+        "AUR-035"
+      ],
+      "environmentId": "AUR-VAR",
+      "release": 0,
+      "kind": "servico",
+      "notes": "Sem presumir churrasqueira/gás permitido.",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2026-12-15",
+      "end": "2026-12-21"
+    },
+    {
+      "id": "AUR-045",
+      "name": "Teste estanqueidade hidráulica, elétrica preliminar e inspeção fotográfica",
+      "stage": "Instalações e infraestrutura",
+      "duration": 3,
+      "predecessorIds": [
+        "AUR-040",
+        "AUR-043"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2027-01-05",
+      "end": "2027-01-07"
+    },
+    {
+      "id": "AUR-046",
+      "name": "Fechamento de rasgos e recomposição das alvenarias",
+      "stage": "Instalações e infraestrutura",
+      "duration": 5,
+      "predecessorIds": [
+        "AUR-042",
+        "AUR-045"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2027-01-08",
+      "end": "2027-01-14"
+    },
+    {
+      "id": "AUR-050",
+      "name": "Regularização de pisos e paredes após remoções",
+      "stage": "Bases e impermeabilização",
+      "duration": 9,
+      "predecessorIds": [
+        "AUR-034",
+        "AUR-046"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2027-01-15",
+      "end": "2027-01-27"
+    },
+    {
+      "id": "AUR-051",
+      "name": "Aplicação de impermeabilização nas áreas úmidas intervindas",
+      "stage": "Bases e impermeabilização",
+      "duration": 5,
+      "predecessorIds": [
+        "AUR-050"
+      ],
+      "environmentId": "AUR-BANS",
+      "release": 0,
+      "kind": "servico",
+      "notes": "Impermeabilização conforme projeto, manual do sistema e áreas afetadas.",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2027-01-28",
+      "end": "2027-02-03"
+    },
+    {
+      "id": "AUR-052",
+      "name": "Tempo de cura e teste de estanqueidade da impermeabilização",
+      "stage": "Bases e impermeabilização",
+      "duration": 5,
+      "predecessorIds": [
+        "AUR-051"
+      ],
+      "environmentId": "AUR-BANS",
+      "release": 0,
+      "kind": "servico",
+      "notes": "Não comprimir prazo de cura sem especificação do fabricante.",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2027-02-04",
+      "end": "2027-02-10"
+    },
+    {
+      "id": "AUR-053",
+      "name": "Contrapiso e preparação final dos substratos secos",
+      "stage": "Bases e impermeabilização",
+      "duration": 6,
+      "predecessorIds": [
+        "AUR-050"
+      ],
+      "environmentId": "AUR-SALA",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2027-01-28",
+      "end": "2027-02-04"
+    },
+    {
+      "id": "AUR-060",
+      "name": "Assentamento de pisos secos novos, perfis e transições",
+      "stage": "Revestimentos e pisos",
+      "duration": 10,
+      "predecessorIds": [
+        "AUR-011",
+        "AUR-053"
+      ],
+      "environmentId": "AUR-SALA",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2027-02-05",
+      "end": "2027-02-18"
+    },
+    {
+      "id": "AUR-061",
+      "name": "Revestir pisos e paredes dos banheiros",
+      "stage": "Revestimentos e pisos",
+      "duration": 10,
+      "predecessorIds": [
+        "AUR-011",
+        "AUR-052"
+      ],
+      "environmentId": "AUR-BANS",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2027-02-11",
+      "end": "2027-02-24"
+    },
+    {
+      "id": "AUR-062",
+      "name": "Assentamento de acabamento de cozinha e área de serviço",
+      "stage": "Revestimentos e pisos",
+      "duration": 7,
+      "predecessorIds": [
+        "AUR-011",
+        "AUR-043",
+        "AUR-050"
+      ],
+      "environmentId": "AUR-COZ",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2027-01-28",
+      "end": "2027-02-05"
+    },
+    {
+      "id": "AUR-063",
+      "name": "Assentamento de acabamento da varanda, se tecnicamente permitido",
+      "stage": "Revestimentos e pisos",
+      "duration": 6,
+      "predecessorIds": [
+        "AUR-024",
+        "AUR-044",
+        "AUR-050"
+      ],
+      "environmentId": "AUR-VAR",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2027-01-28",
+      "end": "2027-02-04"
+    },
+    {
+      "id": "AUR-064",
+      "name": "Rejuntamento, selagens de perímetro e cura de pisos/revestimentos",
+      "stage": "Revestimentos e pisos",
+      "duration": 5,
+      "predecessorIds": [
+        "AUR-060",
+        "AUR-061",
+        "AUR-062",
+        "AUR-063"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2027-02-25",
+      "end": "2027-03-03"
+    },
+    {
+      "id": "AUR-065",
+      "name": "Rodapés, soleiras, arremates e proteção dos novos pisos",
+      "stage": "Revestimentos e pisos",
+      "duration": 4,
+      "predecessorIds": [
+        "AUR-064"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2027-03-04",
+      "end": "2027-03-09"
+    },
+    {
+      "id": "AUR-070",
+      "name": "Estrutura de forro, sancas, rasgos e visita técnica",
+      "stage": "Forros, pintura e iluminação",
+      "duration": 8,
+      "predecessorIds": [
+        "AUR-042",
+        "AUR-046"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2027-01-15",
+      "end": "2027-01-26"
+    },
+    {
+      "id": "AUR-071",
+      "name": "Fechamento, tratamento de juntas e inspeção do forro",
+      "stage": "Forros, pintura e iluminação",
+      "duration": 6,
+      "predecessorIds": [
+        "AUR-070"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2027-01-27",
+      "end": "2027-02-03"
+    },
+    {
+      "id": "AUR-072",
+      "name": "Preparação, selagem, massa e primeira pintura de paredes/forro",
+      "stage": "Forros, pintura e iluminação",
+      "duration": 9,
+      "predecessorIds": [
+        "AUR-071",
+        "AUR-065"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2027-03-10",
+      "end": "2027-03-22"
+    },
+    {
+      "id": "AUR-073",
+      "name": "Instalação elétrica final de perfis de LED e spots",
+      "stage": "Forros, pintura e iluminação",
+      "duration": 5,
+      "predecessorIds": [
+        "AUR-015",
+        "AUR-072"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2027-03-23",
+      "end": "2027-03-29"
+    },
+    {
+      "id": "AUR-074",
+      "name": "Segunda pintura e retoques prévios à montagem",
+      "stage": "Forros, pintura e iluminação",
+      "duration": 5,
+      "predecessorIds": [
+        "AUR-073"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2027-03-30",
+      "end": "2027-04-05"
+    },
+    {
+      "id": "AUR-080",
+      "name": "Marcenaria — instalação de estruturas e frentes personalizadas",
+      "stage": "Marcenaria e marmoraria",
+      "duration": 12,
+      "predecessorIds": [
+        "AUR-018",
+        "AUR-074",
+        "AUR-065"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "servico",
+      "notes": "Atividade alvo do teste: deslocar início em dez dias corridos.",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2027-04-06",
+      "end": "2027-04-21"
+    },
+    {
+      "id": "AUR-081",
+      "name": "Vistoria, regulagem e liberação da marcenaria",
+      "stage": "Marcenaria e marmoraria",
+      "duration": 4,
+      "predecessorIds": [
+        "AUR-080"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2027-04-22",
+      "end": "2027-04-27"
+    },
+    {
+      "id": "AUR-082",
+      "name": "Medição final das bancadas sobre mobiliário efetivamente instalado",
+      "stage": "Marcenaria e marmoraria",
+      "duration": 2,
+      "predecessorIds": [
+        "AUR-080",
+        "AUR-019"
+      ],
+      "environmentId": "AUR-COZ",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2027-04-22",
+      "end": "2027-04-23"
+    },
+    {
+      "id": "AUR-083",
+      "name": "Beneficiamento e fabricação das pedras sob medida",
+      "stage": "Marcenaria e marmoraria",
+      "duration": 16,
+      "predecessorIds": [
+        "AUR-082"
+      ],
+      "environmentId": "AUR-COZ",
+      "release": 0,
+      "kind": "fornecimento",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2027-04-26",
+      "end": "2027-05-17"
+    },
+    {
+      "id": "AUR-084",
+      "name": "Transporte e instalação das pedras e cubas sobre bancadas",
+      "stage": "Marcenaria e marmoraria",
+      "duration": 4,
+      "predecessorIds": [
+        "AUR-083",
+        "AUR-081"
+      ],
+      "environmentId": "AUR-COZ",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2027-05-18",
+      "end": "2027-05-21"
+    },
+    {
+      "id": "AUR-090",
+      "name": "Instalar louças, metais, válvulas, boxes e acessórios",
+      "stage": "Equipamentos e montagens",
+      "duration": 5,
+      "predecessorIds": [
+        "AUR-013",
+        "AUR-064"
+      ],
+      "environmentId": "AUR-BANS",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2027-03-04",
+      "end": "2027-03-10"
+    },
+    {
+      "id": "AUR-091",
+      "name": "Instalar eletrodomésticos e testar cargas e conexões",
+      "stage": "Equipamentos e montagens",
+      "duration": 5,
+      "predecessorIds": [
+        "AUR-020",
+        "AUR-084",
+        "AUR-090"
+      ],
+      "environmentId": "AUR-COZ",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2027-05-24",
+      "end": "2027-05-28"
+    },
+    {
+      "id": "AUR-092",
+      "name": "Instalar persianas, cortinas e elementos decorativos fixos",
+      "stage": "Equipamentos e montagens",
+      "duration": 4,
+      "predecessorIds": [
+        "AUR-022",
+        "AUR-081"
+      ],
+      "environmentId": "AUR-SALA",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2027-04-28",
+      "end": "2027-05-03"
+    },
+    {
+      "id": "AUR-093",
+      "name": "Montar mobiliário solto, cabeceiras e tapetes",
+      "stage": "Equipamentos e montagens",
+      "duration": 5,
+      "predecessorIds": [
+        "AUR-022",
+        "AUR-081",
+        "AUR-065"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2027-04-28",
+      "end": "2027-05-04"
+    },
+    {
+      "id": "AUR-094",
+      "name": "Instalação final da varanda e jardinagem conforme viabilidade",
+      "stage": "Equipamentos e montagens",
+      "duration": 4,
+      "predecessorIds": [
+        "AUR-063",
+        "AUR-024",
+        "AUR-090"
+      ],
+      "environmentId": "AUR-VAR",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2027-03-11",
+      "end": "2027-03-16"
+    },
+    {
+      "id": "AUR-095",
+      "name": "Completar iluminação decorativa e ajustes de cenas",
+      "stage": "Equipamentos e montagens",
+      "duration": 4,
+      "predecessorIds": [
+        "AUR-073",
+        "AUR-081",
+        "AUR-093"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2027-05-05",
+      "end": "2027-05-10"
+    },
+    {
+      "id": "AUR-100",
+      "name": "Comissionamento hidráulico, esgoto e funcionamento de equipamentos",
+      "stage": "Testes e entrega",
+      "duration": 3,
+      "predecessorIds": [
+        "AUR-090",
+        "AUR-091"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2027-05-31",
+      "end": "2027-06-02"
+    },
+    {
+      "id": "AUR-101",
+      "name": "Inspeção elétrica, circuitos, LEDs e segurança de uso",
+      "stage": "Testes e entrega",
+      "duration": 3,
+      "predecessorIds": [
+        "AUR-095",
+        "AUR-091"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2027-05-31",
+      "end": "2027-06-02"
+    },
+    {
+      "id": "AUR-102",
+      "name": "Vistoria de qualidade, checklist por ambiente e lista de correções",
+      "stage": "Testes e entrega",
+      "duration": 3,
+      "predecessorIds": [
+        "AUR-084",
+        "AUR-092",
+        "AUR-093",
+        "AUR-094",
+        "AUR-100",
+        "AUR-101"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2027-06-03",
+      "end": "2027-06-07"
+    },
+    {
+      "id": "AUR-103",
+      "name": "Correção de pendências, ajustes e retoques finais",
+      "stage": "Testes e entrega",
+      "duration": 6,
+      "predecessorIds": [
+        "AUR-102"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2027-06-08",
+      "end": "2027-06-15"
+    },
+    {
+      "id": "AUR-104",
+      "name": "Limpeza pós-obra, retirada de proteções e destinação final",
+      "stage": "Testes e entrega",
+      "duration": 4,
+      "predecessorIds": [
+        "AUR-103"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "servico",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2027-06-16",
+      "end": "2027-06-21"
+    },
+    {
+      "id": "AUR-105",
+      "name": "Entrega técnica, manuais, garantias e documentos",
+      "stage": "Testes e entrega",
+      "duration": 1,
+      "predecessorIds": [
+        "AUR-104"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "marco",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2027-06-22",
+      "end": "2027-06-22"
+    },
+    {
+      "id": "AUR-106",
+      "name": "Janela de mudança / ocupação (somente hipótese)",
+      "stage": "Testes e entrega",
+      "duration": 1,
+      "predecessorIds": [
+        "AUR-105"
+      ],
+      "environmentId": "AUR-GERAL",
+      "release": 0,
+      "kind": "marco",
+      "notes": "",
+      "status": "prevista",
+      "visao": "principal",
+      "criticalCandidate": false,
+      "start": "2027-06-23",
+      "end": "2027-06-23"
+    }
+  ],
+  "purchases": [
+    {
+      "id": "AUR-P01",
+      "name": "Porcelanato / piso de área social",
+      "environmentId": "AUR-SALA",
+      "status": "especificar",
+      "notes": "Quantidade depende de levantamento métrico",
+      "supplier": "",
+      "amount": null,
+      "qty": null,
+      "url": ""
+    },
+    {
+      "id": "AUR-P02",
+      "name": "Revestimentos e impermeabilizantes banheiros",
+      "environmentId": "AUR-BA3",
+      "status": "cotacao",
+      "notes": "Especificação e sistema compatível com substrato",
+      "supplier": "",
+      "amount": null,
+      "qty": null,
+      "url": ""
+    },
+    {
+      "id": "AUR-P03",
+      "name": "Madeira engenheirada ou piso amadeirado",
+      "environmentId": "AUR-QUARTO",
+      "status": "especificar",
+      "notes": "Material indicado visualmente; definição técnica pendente",
+      "supplier": "",
+      "amount": null,
+      "qty": null,
+      "url": ""
+    },
+    {
+      "id": "AUR-P04",
+      "name": "Marcenaria personalizada",
+      "environmentId": "AUR-SUITE",
+      "status": "encomenda",
+      "notes": "Ferragens, projeto e produção fictícios",
+      "supplier": "",
+      "amount": null,
+      "qty": null,
+      "url": ""
+    },
+    {
+      "id": "AUR-P05",
+      "name": "Bancadas de pedra sintética/natural",
+      "environmentId": "AUR-COZ",
+      "status": "especificar",
+      "notes": "Material não identificável com precisão no render",
+      "supplier": "",
+      "amount": null,
+      "qty": null,
+      "url": ""
+    },
+    {
+      "id": "AUR-P06",
+      "name": "Cubas, metais e louças",
+      "environmentId": "AUR-BA3",
+      "status": "cotacao",
+      "notes": "Compatibilizar hidráulica",
+      "supplier": "",
+      "amount": null,
+      "qty": null,
+      "url": ""
+    },
+    {
+      "id": "AUR-P07",
+      "name": "Perfis LED, driver, spots e pendentes",
+      "environmentId": "AUR-SALA",
+      "status": "cotacao",
+      "notes": "Cálculo luminotécnico e acessibilidade de manutenção",
+      "supplier": "",
+      "amount": null,
+      "qty": null,
+      "url": ""
+    },
+    {
+      "id": "AUR-P08",
+      "name": "Móveis soltos, poltronas, mesas e cadeiras",
+      "environmentId": "AUR-SALA",
+      "status": "cotacao",
+      "notes": "Dimensões e logística de entrega a confirmar",
+      "supplier": "",
+      "amount": null,
+      "qty": null,
+      "url": ""
+    },
+    {
+      "id": "AUR-P09",
+      "name": "Persianas, cortinas e tecidos",
+      "environmentId": "AUR-SUITE",
+      "status": "especificar",
+      "notes": "Medição final após acabamentos",
+      "supplier": "",
+      "amount": null,
+      "qty": null,
+      "url": ""
+    },
+    {
+      "id": "AUR-P10",
+      "name": "Geladeira, forno, cooktop e coifa",
+      "environmentId": "AUR-COZ",
+      "status": "cotacao",
+      "notes": "Compatibilização de potência, ventilação e gás",
+      "supplier": "",
+      "amount": null,
+      "qty": null,
+      "url": ""
+    },
+    {
+      "id": "AUR-P11",
+      "name": "Varanda: mobiliário e vegetação",
+      "environmentId": "AUR-VAR",
+      "status": "especificar",
+      "notes": "Consultar carga, vento e regras condominiais",
+      "supplier": "",
+      "amount": null,
+      "qty": null,
+      "url": ""
+    },
+    {
+      "id": "AUR-P12",
+      "name": "Box e espelhos sob medida",
+      "environmentId": "AUR-BA1",
+      "status": "cotacao",
+      "notes": "Medições após acabamentos",
+      "supplier": "",
+      "amount": null,
+      "qty": null,
+      "url": ""
+    }
+  ],
+  "events": [
+    {
+      "id": "AUR-E01",
+      "date": "2026-10-19",
+      "time": "09:00",
+      "kind": "visita",
+      "title": "Início fictício do planejamento",
+      "description": "Premissa, não evento confirmado."
+    },
+    {
+      "id": "AUR-E02",
+      "date": "2026-10-26",
+      "time": "14:00",
+      "kind": "decisao",
+      "title": "Revisão de especificações",
+      "description": "Janela proposta para decisões."
+    },
+    {
+      "id": "AUR-E03",
+      "date": "2027-04-06",
+      "time": "09:00",
+      "kind": "obra",
+      "title": "Marcenaria — início previsto",
+      "description": "Data calculada, sujeita à obra e ao fornecedor."
+    },
+    {
+      "id": "AUR-E04",
+      "date": "2027-06-22",
+      "time": "15:00",
+      "kind": "marco",
+      "title": "Entrega técnica prevista",
+      "description": "Meta fictícia condicionada a testes e ajustes."
+    }
+  ],
+  "decisions": [
+    {
+      "id": "AUR-D01",
+      "date": "2026-10-19",
+      "roomId": "AUR-GERAL",
+      "title": "Premissa de reforma integral",
+      "description": "Todos os acabamentos novos dependem de vistoria e compatibilização. Decisão fictícia do laboratório.",
+      "status": "em_estudo"
+    }
+  ],
+  "comments": [],
+  "board": {},
+  "files": [
+    {
+      "id": "AUR-F01",
+      "title": "Planta humanizada de referência",
+      "path": "media/planta-humanizada.jpg",
+      "roomId": "AUR-GERAL",
+      "kind": "imagem"
+    },
+    {
+      "id": "AUR-R01",
+      "title": "Perspectiva — sala-estar-jantar",
+      "path": "media/sala-estar-jantar.jpg",
+      "roomId": "AUR-SALA",
+      "kind": "imagem"
+    },
+    {
+      "id": "AUR-R02",
+      "title": "Perspectiva — cozinha",
+      "path": "media/cozinha.jpg",
+      "roomId": "AUR-COZ",
+      "kind": "imagem"
+    },
+    {
+      "id": "AUR-R03",
+      "title": "Perspectiva — varanda",
+      "path": "media/varanda.jpg",
+      "roomId": "AUR-VAR",
+      "kind": "imagem"
+    },
+    {
+      "id": "AUR-R04",
+      "title": "Perspectiva — suite",
+      "path": "media/suite.jpg",
+      "roomId": "AUR-SUITE",
+      "kind": "imagem"
+    },
+    {
+      "id": "AUR-R05",
+      "title": "Perspectiva — quarto",
+      "path": "media/quarto.jpg",
+      "roomId": "AUR-QUARTO",
+      "kind": "imagem"
+    },
+    {
+      "id": "AUR-R06",
+      "title": "Perspectiva — banheiro",
+      "path": "media/banheiro.jpg",
+      "roomId": "AUR-BA3",
+      "kind": "imagem"
+    }
+  ],
+  "simulation": {
+    "target": "AUR-080",
+    "shiftCalendarDays": 10,
+    "lockedDate": "2027-04-16",
+    "baselineInstallation": {
+      "start": "2027-04-06",
+      "end": "2027-04-21"
+    },
+    "delayedInstallation": {
+      "start": "2027-04-16",
+      "end": "2027-05-03"
+    },
+    "baselineDelivery": {
+      "start": "2027-06-22",
+      "end": "2027-06-22"
+    },
+    "delayedDelivery": {
+      "start": "2027-07-02",
+      "end": "2027-07-02"
+    },
+    "affected": [
+      {
+        "id": "AUR-080",
+        "name": "Marcenaria — instalação de estruturas e frentes personalizadas",
+        "before": {
+          "start": "2027-04-06",
+          "end": "2027-04-21"
+        },
+        "after": {
+          "start": "2027-04-16",
+          "end": "2027-05-03"
+        }
+      },
+      {
+        "id": "AUR-081",
+        "name": "Vistoria, regulagem e liberação da marcenaria",
+        "before": {
+          "start": "2027-04-22",
+          "end": "2027-04-27"
+        },
+        "after": {
+          "start": "2027-05-04",
+          "end": "2027-05-07"
+        }
+      },
+      {
+        "id": "AUR-082",
+        "name": "Medição final das bancadas sobre mobiliário efetivamente instalado",
+        "before": {
+          "start": "2027-04-22",
+          "end": "2027-04-23"
+        },
+        "after": {
+          "start": "2027-05-04",
+          "end": "2027-05-05"
+        }
+      },
+      {
+        "id": "AUR-083",
+        "name": "Beneficiamento e fabricação das pedras sob medida",
+        "before": {
+          "start": "2027-04-26",
+          "end": "2027-05-17"
+        },
+        "after": {
+          "start": "2027-05-06",
+          "end": "2027-05-27"
+        }
+      },
+      {
+        "id": "AUR-084",
+        "name": "Transporte e instalação das pedras e cubas sobre bancadas",
+        "before": {
+          "start": "2027-05-18",
+          "end": "2027-05-21"
+        },
+        "after": {
+          "start": "2027-05-28",
+          "end": "2027-06-02"
+        }
+      },
+      {
+        "id": "AUR-091",
+        "name": "Instalar eletrodomésticos e testar cargas e conexões",
+        "before": {
+          "start": "2027-05-24",
+          "end": "2027-05-28"
+        },
+        "after": {
+          "start": "2027-06-03",
+          "end": "2027-06-09"
+        }
+      },
+      {
+        "id": "AUR-092",
+        "name": "Instalar persianas, cortinas e elementos decorativos fixos",
+        "before": {
+          "start": "2027-04-28",
+          "end": "2027-05-03"
+        },
+        "after": {
+          "start": "2027-05-10",
+          "end": "2027-05-13"
+        }
+      },
+      {
+        "id": "AUR-093",
+        "name": "Montar mobiliário solto, cabeceiras e tapetes",
+        "before": {
+          "start": "2027-04-28",
+          "end": "2027-05-04"
+        },
+        "after": {
+          "start": "2027-05-10",
+          "end": "2027-05-14"
+        }
+      },
+      {
+        "id": "AUR-095",
+        "name": "Completar iluminação decorativa e ajustes de cenas",
+        "before": {
+          "start": "2027-05-05",
+          "end": "2027-05-10"
+        },
+        "after": {
+          "start": "2027-05-17",
+          "end": "2027-05-20"
+        }
+      },
+      {
+        "id": "AUR-100",
+        "name": "Comissionamento hidráulico, esgoto e funcionamento de equipamentos",
+        "before": {
+          "start": "2027-05-31",
+          "end": "2027-06-02"
+        },
+        "after": {
+          "start": "2027-06-10",
+          "end": "2027-06-14"
+        }
+      },
+      {
+        "id": "AUR-101",
+        "name": "Inspeção elétrica, circuitos, LEDs e segurança de uso",
+        "before": {
+          "start": "2027-05-31",
+          "end": "2027-06-02"
+        },
+        "after": {
+          "start": "2027-06-10",
+          "end": "2027-06-14"
+        }
+      },
+      {
+        "id": "AUR-102",
+        "name": "Vistoria de qualidade, checklist por ambiente e lista de correções",
+        "before": {
+          "start": "2027-06-03",
+          "end": "2027-06-07"
+        },
+        "after": {
+          "start": "2027-06-15",
+          "end": "2027-06-17"
+        }
+      },
+      {
+        "id": "AUR-103",
+        "name": "Correção de pendências, ajustes e retoques finais",
+        "before": {
+          "start": "2027-06-08",
+          "end": "2027-06-15"
+        },
+        "after": {
+          "start": "2027-06-18",
+          "end": "2027-06-25"
+        }
+      },
+      {
+        "id": "AUR-104",
+        "name": "Limpeza pós-obra, retirada de proteções e destinação final",
+        "before": {
+          "start": "2027-06-16",
+          "end": "2027-06-21"
+        },
+        "after": {
+          "start": "2027-06-28",
+          "end": "2027-07-01"
+        }
+      },
+      {
+        "id": "AUR-105",
+        "name": "Entrega técnica, manuais, garantias e documentos",
+        "before": {
+          "start": "2027-06-22",
+          "end": "2027-06-22"
+        },
+        "after": {
+          "start": "2027-07-02",
+          "end": "2027-07-02"
+        }
+      },
+      {
+        "id": "AUR-106",
+        "name": "Janela de mudança / ocupação (somente hipótese)",
+        "before": {
+          "start": "2027-06-23",
+          "end": "2027-06-23"
+        },
+        "after": {
+          "start": "2027-07-05",
+          "end": "2027-07-05"
+        }
+      }
+    ]
+  },
+  "history": [
+    {
+      "at": "2026-10-19T09:00:00",
+      "kind": "premissa",
+      "description": "Planejamento fictício iniciado em 19/10/2026."
+    },
+    {
+      "at": "2026-10-19T09:01:00",
+      "kind": "simulacao",
+      "description": "Cenário de atraso de 10 dias corridos da instalação de marcenaria calculado; ativável na interface."
+    }
+  ]
+}
