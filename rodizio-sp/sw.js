@@ -1,5 +1,5 @@
 /* Rodízio SP: cache só dos arquivos locais, não dos mapas OSM ou de serviços. */
-const CACHE='rodizio-sp-pwa-v1';
+const CACHE='rodizio-sp-pwa-v2';
 const SHELL=["./index.html", "./manifest.webmanifest", "./pwa-bridge.js", "./leaflet.js", "./leaflet.css", "./leaflet-rotate.umd.min.js", "./app.js", "./navigation.js", "./features-v05.js", "./radar-points.js", "./minianel-rodizio.js", "./icon-192.png", "./icon-512.png", "./apple-touch-icon.png"];
 self.addEventListener('install',event=>{
   event.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting()));
