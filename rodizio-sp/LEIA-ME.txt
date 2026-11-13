@@ -1,0 +1,15 @@
+# Rodízio SP — PWA (iPhone)
+Esta pasta é o site instalável, não um APK. Publique todos os arquivos
+sem alterar a estrutura em um diretório público HTTPS (ex.: /rodizio-sp/).
+No Safari, abra o endereço, toque em Compartilhar e depois Adicionar à Tela de Início.
+
+- Mapa e arquivos de interface são cacheados; imagens de rua carregam online.
+- Rotas e recálculo: API pública BRouter na internet, com parâmetros nogos.
+- Busca de locais: Photon (internet); radares: CSV Pardal (verificado, cache local).
+- Favoritos: localStorage privativo do aparelho.
+- GPS contínuo e voz: sujeitos às permissões/restrições do Safari.
+- Não há garantia de navegação em segundo plano no iOS: mantenha a tela
+  do aplicativo ativa durante o percurso. Picture-in-Picture não implementado.
+- O app não garante que os radares estejam completos, tampouco a legalidade
+  de circular em área de rodízio em dias/horários restritos.
+- Se o site for servido em subpasta, mantenha a PWA em caminho HTTPS fixo.
