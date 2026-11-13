@@ -196,6 +196,8 @@
       if(!navigator.geolocation){window.onNavigationError('Localização não disponível neste navegador.');return;}
       unlockVoice();
       navActive=true;navStarted=false;
+      // iOS desbloqueia síntese de voz após ação direta do usuário.
+      speak('Iniciando navegação. Aguarde o GPS.',false);
       watchId=navigator.geolocation.watchPosition(pos=>{
         if(!navActive)return;
         const loc=locationData(pos);
@@ -225,8 +227,14 @@
   };
   window.addEventListener('DOMContentLoaded',()=>{
     const badge=document.getElementById('engineBadge');
-    if(badge)badge.textContent='Mapa · GPS · rotas online';
     if(window.setNativeStatus)window.setNativeStatus('Modo iPhone: BRouter online. Digite o destino, use GPS ou toque no mapa.');
+    if(badge){
+      badge.textContent='BRouter online';
+      badge.style.background='#0b655b';
+      badge.style.color='#ffffff';
+      badge.style.padding='4px 7px';
+      badge.style.borderRadius='15px';
+    }
     let saved=null;
     try{saved=localStorage.getItem(radarKey)}catch(_e){}
     if(saved&&typeof window.onRadarUpdateData==='function')window.onRadarUpdateData(saved);
